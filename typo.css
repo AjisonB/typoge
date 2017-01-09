@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font:14px courier new;
+}
+input,button{
+    font:14px courier new;
+    background:#fff;
+    border:1px solid #ccc;
+    padding:5px;
+    margin:5px;
+}
+input{
+    margin-right:-5px;
+    border-right:none;
+}
+button{
+    margin-left:-5px;
+    border-left:1px solid #eee;
+}
+input:focus, button:hover{
+    background:#eef;
+}
+button:hover{
+    cursor:pointer;
+}
+#out{
+    padding:5px;
+    margin:5px;
+}
